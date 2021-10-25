@@ -1,0 +1,85 @@
+/* estilo header*/
+header {
+    background: linear-gradient(269.77deg, #052CB4 0.05%, #2D8497 60.17%, #000207 100%);;
+}
+header img{
+    width: 160px;
+}
+header nav{
+    float: right;
+    
+}
+.container-fluid {
+    float: right;
+}
+/* estilo menu do header*/
+.linkMenu{
+
+    text-decoration: none;
+    margin: 20px 10px 0px;
+    text-transform: capitalize;
+    color: rgb(221, 18, 18);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+/*estilo banner*/
+.banner-home{
+    background-color: rgb(209, 201, 201);
+    width: 90%;
+    height: 600px;
+    padding: 60px;
+    margin: 0 auto;
+    display: table;
+    box-shadow: -1px -2px 5px 13px rgba(230,255,225,0.75);
+    -webkit-box-shadow: -1px -2px 5px 13px rgba(230,225,225,0.75);
+    -moz-box-shadow: -1px -2px 5px 13px rgba(230,225,225,0.75);
+}
+.banner-home img{
+    width: 50%;
+    height: 480px;
+}
+.banner-home .texto-apre{
+    margin-top: 50px;
+    width: 50%;
+    font-size: 22px;
+    float: right;
+
+}
+/* centralizar texto*/
+.texto-centralizado{
+    text-align: center;
+}
+.col-12 {
+    margin: 5px;
+    width: 180px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.col-12 img {
+    width: 100%;
+}
+.col-12 div {
+    padding: 5px;
+    text-align: center;
+}
+/* estilo rodape*/
+footer {
+    background: linear-gradient(269.77deg, #052CB4 0.05%, #2D8497 60.17%, #000207 100%);
+    display: grid;
+    grid-template-areas: 
+    'imagem-logo enderecos1 midias-sociais'
+    'imagem-logo enderecos2 midias-sociais'
+    'imagem-logo enderecos3 midias-sociais';
+    padding: 40px;
+    
+}
+
+
+#midias-sociais {
+    grid-area: midias-sociais;
+}
+#midias-sociais img {
+    height: 40px;
+}
