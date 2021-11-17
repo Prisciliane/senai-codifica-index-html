@@ -25,48 +25,41 @@ header nav{
     font-family: Arial, Helvetica, sans-serif;
    
 }
-/*estilo banner*/
-.banner-home{
-    background-color: rgb(209, 201, 201);
-    width: 90%;
-    height: 600px;
-    padding: 60px;
-    margin: 0 auto;
-    display: table;
-    box-shadow: -1px -2px 5px 13px rgba(230,255,225,0.75);
-    -webkit-box-shadow: -1px -2px 5px 13px rgba(230,225,225,0.75);
-    -moz-box-shadow: -1px -2px 5px 13px rgba(230,225,225,0.75);
-}
-.banner-home img{
-    width: 50%;
-    height: 480px;
-}
-.banner-home .texto-apre{
-    margin-top: 50px;
-    width: 50%;
-    font-size: 22px;
-    float: right;
 
-}
-/* centralizar texto*/
 .texto-centralizado{
     text-align: center;
 }
-.col-12 {
-    margin: 5px;
-    width: 180px;
+
+/*card*/
+.grupo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+.card {
+    display: table;
+    width: 238px;
     border: 1px solid silver;
     border-radius: 5px;
     margin-bottom: 10px;
 }
-.col-12 img {
+.card img {
     width: 100%;
+    border-radius: 4px 4px 0px 0px;
 }
-.col-12 div {
-    padding: 5px;
+.card div {
+    padding: 10px;
+}
+.card-body{
+    display: table-cell;
+    vertical-align: middle;
+    height: 200px;
+    width: 50%;
     text-align: center;
 }
-/* estilo rodape*/
+
+/*footer*/
 footer {
     background: linear-gradient(269.77deg, #052CB4 0.05%, #2D8497 60.17%, #000207 100%);
     display: grid;
@@ -93,12 +86,4 @@ footer {
 }
 #midias-sociais img {
     height: 40px;
-}
-
-/*ajuste carrosel pagina galeria*/
-.carousel-item{
-    height: 80vh;
-}
-.carousel-item img{
-    height: 100%;
 }
